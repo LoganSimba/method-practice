@@ -5,6 +5,7 @@ public class CompareNumbers {
 
 
 
+
     }
 
     // created a boolean method to check if a number is even
@@ -12,4 +13,10 @@ public class CompareNumbers {
 
         return num % 2 == 0;
     }
+
+    //create a method to check if a number is positive
+    public static boolean isPositive(int num){
+        return num > 0;
+    }
+
 }
