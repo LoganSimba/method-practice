@@ -5,7 +5,8 @@ import java.sql.SQLOutput;
 public class Menu {
     public static void main(String[] args) {
 
-        // call the displayMeny method
+        // call the displayMeny method twice
+        displayMenu();
         displayMenu();
 
     }
