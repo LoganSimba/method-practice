@@ -3,7 +3,9 @@ package com.pluralsight;
 public class Format {
     public static void main(String[] args) {
 
-
+    // Stored a method in a variable and printed it
+    String formattedName = formatName("Logan","Simba");
+    System.out.println(formattedName);
 
     }
 
